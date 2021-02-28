@@ -1,6 +1,6 @@
 # 2020-spring-group-JayPath
 
-Group project
+Group project of JHU 601.621 Object-Oriented Software Engineering
 
 ## Install Node and NPM
 
