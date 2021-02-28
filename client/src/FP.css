@@ -1,0 +1,133 @@
+body {
+    font: 1vw "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    border: 3px solid rgba(211, 149, 190, 0.431);
+  }
+
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+  }
+
+  .box {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #b1e2f2;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    border:0.1vw solid #193b4d;
+    line-height: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10vw;
+  }
+
+  .tip1 {
+    position: relative;
+    margin-top: 1.5vw;
+    color: #193b4d;
+    text-align: left;
+    font-size: 1vw;
+    text-align: center;
+  }
+
+
+  .tip1:hover {
+    color: darkblue;
+  }
+
+  .tip2:hover {
+    color: darkblue;
+  }
+
+
+
+  .text1 {
+    text-align: center;
+    color: #193b4d;
+    position: relative;
+    font-size: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .text2 {
+    text-align: center;
+    color: #193b4d;
+    position: relative;
+    font-size: 1.5vw;
+  }
+
+  .note {
+    position: relative;
+    font-size:1.5vw;
+    color: darkblue;
+    font-family: Optima-Bold;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .button_b {
+    position: relative;
+    text-align: center;
+    border:transparent;
+    background-color: darkblue;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 1vw;
+  }
+
+  .container3 {
+    position: relative;
+    font-size: 1.5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .button_b:hover {
+    color: #255784;
+    background: #89cff0;
+    box-shadow: 0 0 5px #89cff0, 0 0 10px #89cff0, 0 0 10px #89cff0;
+    transition-delay: 0.1s;
+  }
+
+  @font-face {
+    font-family: 'iconfont';  /* project id 1695304 */
+    src: url('//at.alicdn.com/t/font_1695304_cjlaef499sq.eot');
+    src: url('//at.alicdn.com/t/font_1695304_cjlaef499sq.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1695304_cjlaef499sq.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1695304_cjlaef499sq.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1695304_cjlaef499sq.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1695304_cjlaef499sq.svg#iconfont') format('svg');
+  }
+  
+  .iconfont{ font-family:"iconfont"
+    !important; font-size:30px;font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale;}
+  
+  
+  .container2 {
+    position: relative;
+    margin-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    width: 100%;
+  }
